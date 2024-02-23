@@ -6,7 +6,7 @@ class intLinkedList: public unorderedLinkedList<int>
 	public:
 		void splitEvensOddsList(intLinkedList& evensList, intLinkedList& oddsList);
 		// Precond: A pre-existing linked list of integers is formed
-		// Postcond: Said list is 'split' ino an evens and odds list, before the original list is destroyed
+		// Postcond: Said list is 'split' into an evens list and an odds list, before the original list is destroyed
 		//			L> Evens: Contains only the original list's even numbers
 		//			L> Odds: Contains only the original list's odd numbers
 
