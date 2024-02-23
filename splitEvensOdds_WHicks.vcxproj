@@ -127,12 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Downloads\linkedList.h" />
-    <ClInclude Include="..\..\..\Downloads\unorderedLinkedList.h" />
     <ClInclude Include="intLinkedList.h" />
+    <ClInclude Include="linkedList.h" />
+    <ClInclude Include="unorderedLinkedList.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="intLinkedList.cpp" />
+    <ClCompile Include="client.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
