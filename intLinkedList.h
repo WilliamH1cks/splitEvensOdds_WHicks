@@ -32,7 +32,7 @@ void intLinkedList::splitEvensOddsList(intLinkedList &evensList, intLinkedList &
 			}
 			evensList.last = current;
 			evensList.count++;
-			evensList.print();
+			//evensList.print();
 			current = current->link;
 			//cout << endl;
 			evensList.last->link = nullptr;
@@ -50,7 +50,7 @@ void intLinkedList::splitEvensOddsList(intLinkedList &evensList, intLinkedList &
 			}
 			oddsList.last = current;
 			oddsList.count++;
-			oddsList.print();
+			//oddsList.print();
 			current = current->link;
 			//cout << endl;
 			oddsList.last->link = nullptr;
