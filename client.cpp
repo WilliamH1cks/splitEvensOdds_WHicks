@@ -34,7 +34,7 @@ int main()
 	cout << endl << "Evens: ";
 	for (evenPtr = evens.begin(); evenPtr != evens.end(); ++evenPtr)
 		cout << *evenPtr << " ";
-
+	
 	//Prints the odds list
 	cout << endl << "Odds: ";
 	for (oddPtr = odds.begin(); oddPtr != odds.end(); ++oddPtr)
